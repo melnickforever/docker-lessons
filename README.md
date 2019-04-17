@@ -16,8 +16,9 @@ Run docker container
 docker run -it -d --name <container-name> -p <image-port>:<your system port> <image-name> bash
 
 Example: 
+$ docker build -t l1-apache2 ./
 
-$ docker run -dit --name dl-app -p 8080:90 l1-apache2
+$ docker run -dit --name dl-app -p 8080:80 l1-apache2
 
 main docker run options
 
